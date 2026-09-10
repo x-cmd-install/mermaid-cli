@@ -10,6 +10,16 @@
 x install mermaid-cli#readme
 ```
 
+## OpenSSF Scorecard 评分
+
+总评分: **7 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (4/10) — Found 2/5 approved changesets -- score normalized to 4
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/mermaid-js/mermaid-cli#readme>
@@ -28,18 +38,21 @@ x install mermaid-cli#readme
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## OpenSSF Scorecard 评分
+## 发行版状态
 
-总评分: **7 / 10**
+在 [repology.org](https://repology.org/project/mermaid-cli#readme) 上共有 **11** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**9** 个 ⚠️ 使用旧版本。
 
-评分最低的几项:
-
-- **Code-Review** (4/10) — Found 2/5 approved changesets -- score normalized to 4
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `11.16.0` | ⚠️ outdated |
+| Homebrew | `11.17.0` | ✅ latest |
+| Nix unstable | `11.17.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -50,4 +63,4 @@ mermaid-cli#readme 的安装元数据由 [x-cmd/install](https://github.com/x-cm
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:09:20Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:09:42Z._
