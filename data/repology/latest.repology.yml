@@ -1,4 +1,4 @@
-- repo: arch
+- repo: manjaro_testing
   subrepo: extra
   srcname: mermaid-cli
   binname: mermaid-cli
@@ -6,6 +6,17 @@
   version: 11.16.0
   origversion: 11.16.0-2
   status: outdated
+  summary: Generate images from Mermaid files
+  licenses:
+    - MIT
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: mermaid-cli
+  binname: mermaid-cli
+  visiblename: mermaid-cli
+  version: 11.17.0
+  origversion: 11.17.0-1
+  status: newest
   summary: Generate images from Mermaid files
   licenses:
     - MIT
@@ -27,7 +38,7 @@
   summary: Generate images from Mermaid files
   licenses:
     - MIT
-- repo: manjaro_testing
+- repo: arch
   subrepo: extra
   srcname: mermaid-cli
   binname: mermaid-cli
