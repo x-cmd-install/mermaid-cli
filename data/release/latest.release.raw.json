@@ -66,7 +66,7 @@
   "releases_url": "https://api.github.com/repos/mermaid-js/mermaid-cli/releases{/id}",
   "deployments_url": "https://api.github.com/repos/mermaid-js/mermaid-cli/deployments",
   "created_at": "2020-05-18T07:26:06Z",
-  "updated_at": "2026-09-14T15:02:30Z",
+  "updated_at": "2026-09-16T04:09:30Z",
   "pushed_at": "2026-09-14T07:06:32Z",
   "git_url": "git://github.com/mermaid-js/mermaid-cli.git",
   "ssh_url": "git@github.com:mermaid-js/mermaid-cli.git",
@@ -74,8 +74,8 @@
   "svn_url": "https://github.com/mermaid-js/mermaid-cli",
   "homepage": "",
   "size": 3473,
-  "stargazers_count": 5009,
-  "watchers_count": 5009,
+  "stargazers_count": 5011,
+  "watchers_count": 5011,
   "language": "JavaScript",
   "has_issues": true,
   "has_projects": true,
@@ -83,7 +83,7 @@
   "has_wiki": true,
   "has_pages": false,
   "has_discussions": false,
-  "forks_count": 387,
+  "forks_count": 386,
   "mirror_url": null,
   "archived": false,
   "disabled": false,
@@ -106,9 +106,9 @@
     "mermaid"
   ],
   "visibility": "public",
-  "forks": 387,
+  "forks": 386,
   "open_issues": 89,
-  "watchers": 5009,
+  "watchers": 5011,
   "default_branch": "master",
   "permissions": {
     "admin": false,
@@ -142,6 +142,6 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "network_count": 387,
+  "network_count": 386,
   "subscribers_count": 42
 }
