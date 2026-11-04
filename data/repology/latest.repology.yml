@@ -1,21 +1,3 @@
-- repo: arch
-  subrepo: extra
-  srcname: mermaid-cli
-  binname: mermaid-cli
-  visiblename: mermaid-cli
-  version: 12.0.0
-  origversion: 12.0.0-1
-  status: newest
-  summary: Generate images from Mermaid files
-  licenses:
-    - MIT
-- repo: homebrew
-  srcname: mermaid-cli
-  visiblename: mermaid-cli
-  version: 12.0.0
-  origversion: null
-  status: newest
-  summary: CLI for Mermaid library
 - repo: manjaro_unstable
   subrepo: extra
   srcname: mermaid-cli
@@ -23,10 +5,28 @@
   visiblename: mermaid-cli
   version: 12.0.0
   origversion: 12.0.0-1
-  status: newest
+  status: outdated
   summary: Generate images from Mermaid files
   licenses:
     - MIT
+- repo: arch
+  subrepo: extra
+  srcname: mermaid-cli
+  binname: mermaid-cli
+  visiblename: mermaid-cli
+  version: 12.0.0
+  origversion: 12.0.0-1
+  status: outdated
+  summary: Generate images from Mermaid files
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: mermaid-cli
+  visiblename: mermaid-cli
+  version: 12.2.0
+  origversion: null
+  status: newest
+  summary: CLI for Mermaid library
 - repo: nix_stable_24_05
   srcname: mermaid-cli
   visiblename: mermaid-cli
@@ -87,7 +87,7 @@
   visiblename: mermaid-cli
   version: 12.0.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Generation of diagrams from text in a similar manner as markdown
   maintainers:
     - me@ysndr.de
