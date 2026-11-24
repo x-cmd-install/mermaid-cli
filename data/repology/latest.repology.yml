@@ -36,9 +36,9 @@
   srcname: mermaid-cli
   binname: mermaid-cli
   visiblename: mermaid-cli
-  version: 12.0.0
-  origversion: 12.0.0-1
-  status: outdated
+  version: 12.2.0
+  origversion: 12.2.0-1
+  status: newest
   summary: Generate images from Mermaid files
   licenses:
     - MIT
